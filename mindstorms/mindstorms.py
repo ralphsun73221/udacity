@@ -21,7 +21,10 @@ def draw_art():
         #brad.right(90)
         #這邊是另外一種寫法，直接在同樣的fun裡面直接執行迴圈，好處在於可以不用再寫一個fun，但前提是除非這一串只用這一次。
     
-    #draw_square(brad)
+    for i in range(1,37):
+        draw_square(brad)
+        brad.right(10)
+    #重複迴圈讓他畫成一個圓形
     #把上面寫好的def拿過來用，把()填入這邊定義的brad，他就會去用上面的fun套用到bard
     
 
