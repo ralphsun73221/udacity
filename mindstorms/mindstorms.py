@@ -9,7 +9,7 @@ def draw_triangle(some_turtle):
     #for i in range(1,5): #這邊編譯器會出現Unused variable'i'的警示，但還是可以執行
         #some_turtle.forward(100)
         #some_turtle.right(90)
-        #這串主要用途在於讓原本那一大串重複執行的code可以自動執行四次
+        #這串主要用途在於讓原本那一大串重複執行的code可以自動執行四次，並且畫出正方形
 
 def draw_art():
     window = turtle.Screen()
