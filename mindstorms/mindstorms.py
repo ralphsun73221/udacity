@@ -19,6 +19,12 @@ def draw_square():
     brad.forward(100)
     brad.right(90)
 
+    angie = turtle.Turtle()
+    angie.shape("turtle")
+    angie.color("yellow")
+    angie.circle(100)
+    #另外一串畫圖，用烏龜畫圈圈
+
     window.exitonclick()
 
 draw_square()
