@@ -14,6 +14,7 @@ def draw_triangle(some_turtle):
 def draw_art():
     window = turtle.Screen()
     window.bgcolor("red")
+    #用來顯示一個window
     
     brad = turtle.Turtle()
     brad.shape("arrow")
