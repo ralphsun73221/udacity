@@ -1,6 +1,12 @@
 import turtle
 
-def draw_square():
+def draw_square(some_turtle):
+    for i in range(1,5): #這邊編譯器會出現Unused variable'i'的警示，但還是可以執行
+        some_turtle.forward(100)
+        some_turtle.right(90)
+        #這串主要用途在於讓原本那一大串重複執行的code可以自動執行四次
+
+def draw_art():
     window = turtle.Screen()
     window.bgcolor("red")
     
@@ -9,15 +15,15 @@ def draw_square():
     brad.color("blue", "green")
     brad.speed('normal')
     #之前寫成turtle.XXX但發現根本不是這樣寫，要寫成brad.XXX才行
-
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
+    
+    #for i in range(1,5):
+        #brad.forward(100)
+        #brad.right(90)
+        #這邊是另外一種寫法，直接在同樣的fun裡面直接執行迴圈，好處在於可以不用再寫一個fun，但前提是除非這一串只用這一次。
+    
+    #draw_square(brad)
+    #把上面寫好的def拿過來用，把()填入這邊定義的brad，他就會去用上面的fun套用到bard
+    
 
     angie = turtle.Turtle()
     angie.shape("turtle")
@@ -27,4 +33,4 @@ def draw_square():
 
     window.exitonclick()
 
-draw_square()
+draw_art()
