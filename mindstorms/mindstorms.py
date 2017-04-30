@@ -3,6 +3,7 @@ def draw_triangle(some_turtle):
     for i in range(1,4):
         some_turtle.forward(100)
         some_turtle.right(120)
+        #這可以用來畫三角形
 
 #def draw_square(some_turtle):
     #for i in range(1,5): #這邊編譯器會出現Unused variable'i'的警示，但還是可以執行
