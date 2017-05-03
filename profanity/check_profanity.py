@@ -1,5 +1,5 @@
 import requests
-import urllib.parse
+#import urllib
 
 def read_text():
     quotes = open("/Users/sunzheng-jie/Desktop/git/udacity/profanity/movie_quotes.txt")
