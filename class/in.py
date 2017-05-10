@@ -22,4 +22,4 @@ class Child(Parent):
 billy_cyrus = Parent("孫", "棕色")
 #billy_cyrus.show_info()
 miley_cyrus = Child("孫", "棕色", "5")
-miley_cyrus.show_info()
+# miley_cyrus.show_info()
